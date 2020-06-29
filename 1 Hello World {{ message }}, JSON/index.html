@@ -1,0 +1,22 @@
+<html>
+    <head><link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+
+        <div id="app">
+            {{ message }}<br/>
+            {{ msg2 }}
+            <!--Alternatively,-->
+            <!--<p v-text="message"></p>-->
+            <!--<p v-text="msg2"></p>-->
+            <!-- To use HTML -->
+            <p v-html="msg3"></p>
+            <p v-html="msg4"></p>
+
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

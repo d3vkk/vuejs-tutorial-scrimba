@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+
+        <div id="app">
+            <ol>
+                <todo-item
+                    v-for="item in groceryList"
+                    v-bind:do="item"
+                    v-bind:key="item.id">
+                    <!--
+                        For every item in list display the value for each key
+                            using the 'template:' value
+                        v-for="item in List"
+
+                        Bind the list values here with props
+                        v-bind:value="item"
+                        v-bind:key="item.id">
+
+                        Can also be written as:
+                            :value="item"
+                            :key="item.id">
+
+                        v-bind - binds an attribute to an expression
+                            whereby "value" is the attribute and "item" is the expression
+                     -->
+               </todo-item>
+            </ol>
+        </div>
+        <!-- https://vuejs.org/v2/guide/list.html#key -->
+        <script src="index.js"></script>
+    </body>
+</html>
