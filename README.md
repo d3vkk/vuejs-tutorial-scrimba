@@ -1,4 +1,4 @@
-# Dart Basics Tutorial
+# Vuejs Basics Tutorial From Scrimba
 
 ![Vuejs Logo](https://github.com/d3vkk/vuejs-basics-tutorial-scrimba/blob/master/vuejs-logo.png)
 
