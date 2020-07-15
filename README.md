@@ -6,7 +6,7 @@ Vue.js Basics Tutorial from Scrimba. With short, useful comments.
 
 [Scrimba](https://scrimba.com/g/glearnvue)
 
-
+Fork or clone this repo
 ```
 git clone https://github.com/d3vkk/vuejs-basics-tutorial-scrimba.git
 ```
